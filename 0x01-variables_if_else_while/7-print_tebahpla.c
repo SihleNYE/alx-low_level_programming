@@ -1,11 +1,23 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <ctype.h>
-int main()
+
+/**
+ *main - Entry point
+ *
+ * Description: 'Decrementing the alphabet loop  '
+ *
+ * Return: Always 0 (Success)
+ */
+
+int main(void)
 
 {
-        int i =97;
-        for (i=97 ;i<= 122;i--;)
-        {putchar('%c',i;}
-        return (0);
+	int i;
+
+	i = 122;
+	while (i <= 97)
+	{putchar(i);
+	i--;
+	}
+	putchar('\n');
+	return (0);
 }
