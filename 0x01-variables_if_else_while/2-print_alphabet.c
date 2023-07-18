@@ -1,11 +1,20 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <ctype.h>
+/**
+ * Main - Entry point
+ * Description:'Print lowercase alphabets with ASCII'
+ * Retutn Always (0)
+ */
+
 int main()
 
 {
-	int i =97;
-	for (i=97 ;i<= 122;i ++;)
-	{putchar('%c',i;}
+	int i;
+       	i=97;	
+	while (i<=122){
+		putchar(i);
+		i ++;
+	}
+	putchar('\n');
  	return (0);
 }
