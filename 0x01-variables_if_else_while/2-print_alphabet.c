@@ -1,20 +1,25 @@
 #include <stdio.h>
 #include <stdlib.h>
+
 /**
- * Main - Entry point
- * Description:'Print lowercase alphabets with ASCII'
- * Retutn Always (0)
+ *main - Entry point
+ *
+ * Description: 'Evaluate the last number of random input'
+ *
+ * Return: Always 0 (Success)
  */
 
-int main()
+int main(void)
 
 {
 	int i;
-       	i=97;	
-	while (i<=122){
+
+	i = 97;
+	while (i < = 122)
+	{
 		putchar(i);
-		i ++;
+		i++;
 	}
 	putchar('\n');
- 	return (0);
+	return (0);
 }
