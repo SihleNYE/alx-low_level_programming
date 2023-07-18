@@ -1,11 +1,26 @@
 #include <stdio.h>
 
-int main(){
+/**
+ *main - Entry point
+ *
+ * Description: 'Iterating a list of numbers  '
+ *
+ * Return: Always 0 (Success)
+ */
 
-	int j = 0;
-		do {
-	printf("%d\n",j);
-	j++;		}
-while (j<11);
-return 0;
+int main(void)
+{
+
+	int j;
+
+	j = 0;
+
+	do {	printf("%d", j);
+		j++;		}
+
+	while (j < 10);
+
+	printf("\n");
+
+	return (0);
 }
