@@ -1,12 +1,31 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <ctype.h>
-int main()	
+
+/**
+ *main - Entry point
+ *
+ * Description: ' Print Alphabets using ASCII from a-Z '
+ *
+ * Return: Always 0 (Success)
+ */
+
+int main(void)
 
 {
-	65-90 A
-	int i =122;
-	for (i=122;i<= 122;i--;)
-	{putchar('%c',i;}
+	int lower;
+	int upper;
+
+	lower = 97;
+	upper = 65;
+
+	while (lower <= 122)
+	{	putchar(lower);
+
+		lower++;	}
+
+	while (upper <= 90)
+	{	putchar(upper);
+
+		upper++;	}
+		putchar('\n');
 	return (0);
 }
