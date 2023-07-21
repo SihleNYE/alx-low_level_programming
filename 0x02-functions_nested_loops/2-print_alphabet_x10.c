@@ -14,13 +14,8 @@
 		int j;
 
 	for (i = 0; i <= 10; i++)
-	{ 
+	{ _putchar(j);
 	for (j = 97; j <= 122; j++)
-		{_putchar(j);
-		{_putchar('\n');
-	       
-		} 
+		{_putchar(j); }
 	}
-
-
 	}
