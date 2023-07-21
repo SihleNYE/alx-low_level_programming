@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_alphabet -print lowercase  a-z 10 times in nested loop
+ * print_alphabet_x10 -print lowercase  a-z 10 times in nested loop
  *
  * Description: 'print the alphabet'
  *
@@ -17,6 +17,6 @@
 	{
 	for (j = 97; j <= 122; j++)
 		{_putchar(j); } }
-	
+
 
 	}
