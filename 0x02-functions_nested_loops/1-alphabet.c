@@ -2,7 +2,7 @@
 
 /**
  * print_alphabet - prints lowercase alphabets a-z
- * @c: The character to print
+ * @c: char
  *
  * Return Success Always (0)
  * On error, -1 is returned, and errno is set appropriately.
