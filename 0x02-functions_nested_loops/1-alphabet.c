@@ -9,8 +9,7 @@
  * Return: Always 0 (Success)
  */
 
-int main(void)
-{
+
 
 void alphabets(void)
 	{
@@ -20,5 +19,5 @@ void alphabets(void)
 		
 
 return (0);
+	}
 
-}
