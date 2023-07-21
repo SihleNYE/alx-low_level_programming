@@ -12,23 +12,27 @@
  *
  */
 
-	int _isupper(int c)
-
+int main(void)
 {
-	for (c = 65; c <= 122; c++)
+	int _isupper(int c)
 	{
-		_putchar('%d'c);
+
+	do 
+	{
+		_putchar(c);
+		c++;
 	}
-	if (c <= 90 && c => 65)
+	while (c = 0);
+	if (c <= 90 && c >= 65)
 		{
 	
 			return (1);
 
 		}
-	else
+	else if (c > 90)
 		{
 			return (0);
 		}
-
-
+	}
+return (0);
 }
