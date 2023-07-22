@@ -13,11 +13,11 @@
 	int sign = n * -1;
 
 	if (n < 0)
-		{_putchar(sign);
-			return (sign);}
-	if (n > 0)
-		{_putchar(n);
-			return (n);}
+	
+	{int sign = n * -1;
+	_putchar(sign);
+	return (sign);}
+
 
 	return (0);
 }
