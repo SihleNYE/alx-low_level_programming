@@ -10,7 +10,6 @@
  */
 	int _abs(int n)
 {
-	int sign = n * -1;
 
 	if (n < 0)
 	
