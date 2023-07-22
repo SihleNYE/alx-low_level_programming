@@ -11,12 +11,12 @@
 	int _abs(int n)
 {
 
-	if (n < 0)
-	
+	if (n > 0)
+
 	{int sign = n * -1;
 	_putchar(sign);
-	return (sign);}
+	return (-sign); }
 
 
-	return (0);
+	return (n);
 }
