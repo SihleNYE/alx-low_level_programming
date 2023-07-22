@@ -20,7 +20,7 @@ if (n == 0)
 			return (0); }
 
 if (n < 0)
-	9	{_putchar('-');
+		{_putchar('-');
 			return (-1); }
 
 	_putchar('\n');
