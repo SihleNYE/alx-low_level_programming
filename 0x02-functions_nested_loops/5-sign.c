@@ -2,8 +2,8 @@
 
 
 /**
- *main - Entry point
- *
+ *print_sign - prints the sign of a number
+ *@n : value of number
  * Description: ''
  *
  * Return: Always 0 (Success)
@@ -24,11 +24,12 @@ if (n == 0)
 			return (0);
 		}
 
-if (n < 0)		{
+if (n < 0)	{
 
 			_putchar('-');
 			return (- 1);
 		}
-			
-return (0);			_putchar('\n');
+
+	_putchar('\n');
+	return (0);
 }
