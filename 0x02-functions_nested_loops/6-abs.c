@@ -10,14 +10,17 @@
  */
 	int _abs(int n)
 {
+	int sign = n * -1;
 	
 	if (n < 0)
 		{
-			_putchar(n * -1);
+			_putchar(sign);
+			return (sign);
 		}
-        else
+        if (n > 0)
 		{
 			_putchar(n);
+			return (n);
 		
 		}
 
