@@ -3,7 +3,7 @@
 
 /**
  *_isalpha -  checks for alphabetic character
- *@c returns ascii value
+ *@c: returns ascii value
  * Description: 'Returns zero if not uppercase'
  *
  * Return: Always 0 (Success)
@@ -11,7 +11,7 @@
 int _isalpha(int c)
 {
 
-	if (c >= 65 && c <= 90 )
+	if (c >= 65 && c <= 90)
 
 	{	return (1); }
 
