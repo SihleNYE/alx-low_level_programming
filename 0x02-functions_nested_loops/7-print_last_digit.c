@@ -2,9 +2,9 @@
 
 
 /**
- *main - Entry point
+ *Print_last_digit - Calculate and print last digit
  *
- * Description: ''
+ * @n : store value of last digit
  *
  * Return: Always 0 (Success)
  */
@@ -16,9 +16,9 @@ int print_last_digit(int n)
 
 	result = n % 10;
 	if (result > 0)
-	{_putchar(result +48); 
+	{_putchar(result + 48);
 	return (result); }
 	else
-	{_putchar((-result + 48)); 
-	return (-result);}
+	{_putchar((-result + 48));
+	return (-result); }
 }
