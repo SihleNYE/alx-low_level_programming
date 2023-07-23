@@ -2,23 +2,41 @@
 
 
 /**
- *main - Entry point
+ *jack_bauer - Entry point
  *
- * Description: ''
+ * Description: 'Print all minutes of the day'
  *
- * Return: Always 0 (Success)
+ * Return: Void
  */
 void jack_bauer(void)
 {
-	int min;
-	int hour;
+	int m1;
+	int m2;
+	int s1;
+	int s2;
 
-	for (hour =0; hour < 24; hour++)
+	for (m1 = 0; m1 <= 2; m1++)
 
-	{for (min = 0; min <= 59; min++)
-	{_putchar(hour);
-	_putchar(':');
-	_putchar(min); }
-_putchar('\n'); }
+	{
+		for (m2 = 0; m2 <= 9; m2++)
+		{
+			for (s1 = 0; s1 <= 6; s1++)
+
+			{
+				for (s2 = 0; <= 9; s2++)
+				{
+					if (m1 <= 2 && m2 >= 4)
+					break;
+				_putchar(m1 + 48);
+				_putchar(m2 + 48);
+				_putchar(58);
+				_putchar(s1 + 48);
+				_putchar(s2 + 48);
+				_putchar('\n');
+				}
+			}
+		}
+	}
+
 
 }
