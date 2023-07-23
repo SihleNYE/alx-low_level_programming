@@ -4,13 +4,15 @@
 /**
  *Print_last_digit - Calculate and print last digit
  *
+ *Description: ' Calculat Print Last digit of number
+ *
  * @n : store value of last digit
  *
- * Return: Always 0 (Success)
+ * Return: Results ,the last value of digit.
  */
 
 int print_last_digit(int n)
-{        
+{
 
 	int result;
 
