@@ -4,7 +4,7 @@
 /**
  *Print_last_digit - Calculate and print last digit
  *
- *Description: ' Calculat Print Last digit of number
+ *Description: ' Calculate Print Last digit of number'
  *
  * @n : store value of last digit
  *
