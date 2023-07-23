@@ -15,8 +15,7 @@ void times_table(void)
 	int Num1;
 	int Num2;
 	int rslt;
-	int LstDgt;
-	int Mtply;
+	
 
 	for (Num1 = 0; Num1 <= 9; Num1++)
 	{
