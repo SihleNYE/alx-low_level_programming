@@ -20,10 +20,10 @@ void jack_bauer(void)
 	{
 		for (m2 = 0; m2 <= 9; m2++)
 		{
-			for (s1 = 0; s1 <= 6; s1++)
+			for (s1 = 0; s1 <= 5; s1++)
 
 			{
-				for (s2 = 0;s2 <= 9; s2++)
+				for (s2 = 0; s2 <= 9; s2++)
 				{
 					if (m1 <= 2 && m2 >= 4)
 					break;
