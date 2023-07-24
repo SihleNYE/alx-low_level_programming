@@ -14,23 +14,22 @@
 	{
 		for (; n >= 98; n--)
 		{
-	
-				printf("%d", n);
-				printf("\n");
-				
-
+			printf("%d", n);
 		}
-
 	}
 
 	if (n <= 98)
 	{
 		for (; n <= 98; n++)
 		{
-			printf("%d", n" ,");
-			printf("+");
-
+			printf("%d, ", n);
 		}
-	}		printf("\n");
-	
+	}
+
+	if (n == 98)
+	{
+		printf("%d", n);
+	}
+
+		printf("\n");
 }
