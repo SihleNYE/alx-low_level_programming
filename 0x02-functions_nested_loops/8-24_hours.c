@@ -25,6 +25,7 @@ void jack_bauer(void)
 			{
 				for (s2 = 0; s2 <= 9; s2++)
 				{
+					
 					if (m1 <= 2 && m2 >= 4)
 					break;
 				_putchar(m1 + 48);
