@@ -26,19 +26,14 @@
 	if (n < 98)
 	{
 		for (; n <= 98; n++)
-		{ if (n == i)
-			{
-				
-				printf("%d,%d",n, i);
-			}
-			
-			
+		{ 
+			printf("%d,",n);
 		}
 	}
 
-	if (n == i)
+	if (n == 98)
 	{
-		printf("%d", i);
+		printf("%d",n);
 	}
 
 		printf("\n");
