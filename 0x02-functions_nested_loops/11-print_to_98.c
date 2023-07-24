@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- *main - Entry point
+ *print_to_98 - 'Print from input up to 98'
+ *@n : input to increment
+ * 
  *
- * Description: ''
- *
- * Return: Always 0 (Success)
+ * Return: void
  */
 	void print_to_98(int n)
 {
@@ -13,7 +13,8 @@
 		{_putchar(n);
 		_putchar(\n);
 		}
+	n++;
 	while (n < 99)
 	
-	return (void)
+	
 }
