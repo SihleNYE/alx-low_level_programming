@@ -26,7 +26,7 @@
 	if (n < 98)
 	{
 		for (; n <= 98; n++)
-		{ if (n =i)
+		{ if (n == i)
 			{
 				
 				printf("%d,%d",n, i);
