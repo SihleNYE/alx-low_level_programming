@@ -15,7 +15,7 @@
 
 	while (*addr != '\0')
 	{
-		*addr++;
+		addr++;
 		slength++;
 	}
 		arrSize = slength - 1;
