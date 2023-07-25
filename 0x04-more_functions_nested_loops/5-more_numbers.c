@@ -10,9 +10,9 @@ void more_numbers(void)
 {
 
 	int x;
-	int j;
+	int y;
 
-	for (x = 1; i <= 10; x++)
+	for (x = 1; x <= 10; x++)
 
 	{
 		for (y = 0; y <= 14; y++)
