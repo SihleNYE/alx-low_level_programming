@@ -2,8 +2,8 @@
 
 /**
  * mul- multiply two integers
- *@a: input 
- @b : input to multiply 
+ *@a: input
+ * @b : input to multiply
  * Return: Success  Always Total
  */
 
@@ -12,7 +12,7 @@
 
 	int pro;
 
-	pro = int a * int b;
+	pro = a * b;
 
 	return (pro);
 }
