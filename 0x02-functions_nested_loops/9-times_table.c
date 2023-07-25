@@ -10,11 +10,14 @@
 
 void times_table(void)
 {
-	
-	char ch = '0';
-	for (ch = '0'; ch <= '9'; ch++)
-	{	_putchar(ch);
-	}
-	
 
+	char ch = '0';
+
+	for (ch = '0'; ch <= '9'; ch++)
+	{	_putchar('0' + 44);
+	}
+
+	for (ch = '0'; ch <= '9'; ch++)
+	{       _putchar(ch + 44);
+	}
 }
