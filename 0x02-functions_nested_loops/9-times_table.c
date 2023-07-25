@@ -19,7 +19,7 @@ void times_table(void)
 	{
 		for (b = 2 * a; b <= 2 * n; b++)
 		{
-			_putchar(a+ 48);
+			_putchar('%d', a + '0');
 			_putchar(b + 48);
 		}
 
