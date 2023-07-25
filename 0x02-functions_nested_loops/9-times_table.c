@@ -10,17 +10,17 @@
 
 void times_table(void)
 {
-	const int n = 9;
-	int a;
-	int b;
+	const char n = 57;
+	char a;
+	char b;
 
 
-	for (a = 0; a <= n; a++)
+	for (a = 48; a <= n; a++)
 	{
 		for (b = 2 * a; b <= 2 * n; b++)
 		{
-			_putchar('%d', a + '0');
-			_putchar(b + 48);
+			_putchar('a');
+			_putchar('b');
 		}
 
 			_putchar('\n');
