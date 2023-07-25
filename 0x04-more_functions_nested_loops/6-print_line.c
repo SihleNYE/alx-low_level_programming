@@ -9,7 +9,8 @@
 void print_line(int n)
 {
 	char c;
-	c = 47;
+
+	c = 95;
 
 	for (n = '0'; n > '0'; n++)
 	{
