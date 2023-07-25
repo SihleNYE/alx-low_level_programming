@@ -1,6 +1,5 @@
 #include "main.h"
 
-
 /**
  *times_table - Entry point
  *
@@ -11,24 +10,20 @@
 
 void times_table(void)
 {
+	const int n = 9;
+	int a;
+	int b;
+	int c;
 
-	int Num1;
-	int Num2;
-	int rslt;
-	
 
-	for (Num1 = 0; Num1 <= 9; Num1++)
+	for (a = 0; a <= n; a++)
 	{
-		for (Num2 = 0; Num2 <= 9; Num2++)
+		for (b = 2 * a; b <= 2 * n; b++)
 		{
-			rslt = Num1 * 9;
-			_putchar(rslt);
+
+			_putchar(b);
 		}
 
 			_putchar('\n');
 	}
-
-
-
 }
-
