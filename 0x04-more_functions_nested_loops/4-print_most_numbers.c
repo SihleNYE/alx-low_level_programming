@@ -14,9 +14,10 @@
 	for (c = '0'; c <= '9'; c++)
 	{
 		if (c == '2' && c == '4')
-			{continue; }
+			{continue;
+			_putchar(c);	}
 		else
-			{_putchar(c); }
+			{break; }
 	}
 	_putchar('\n');
 }
