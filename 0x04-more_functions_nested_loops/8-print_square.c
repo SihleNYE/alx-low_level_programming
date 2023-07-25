@@ -23,7 +23,7 @@ void print_square(int size)
 
 	{
 
-		int i,
+		int i;
 		int j;
 
 
