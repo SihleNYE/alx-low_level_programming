@@ -13,7 +13,6 @@ void times_table(void)
 	const int n = 9;
 	int a;
 	int b;
-	int c;
 
 
 	for (a = 0; a <= n; a++)
