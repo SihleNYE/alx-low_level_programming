@@ -21,5 +21,9 @@ void times_table(void)
 		for (ch = '0'; ch <= '9'; ch++)
 		{       _putchar(ch * 50);
 
+		}
+
+
 	}
+
 }
