@@ -3,12 +3,13 @@
 /**
  * print_line- print straight line
  *@n : input
- * Return: Always 0.
+ * Return: void
  */
 
 void print_line(int n)
 
 {
+	int i;
 
 		if (n <= 0)
 	{
@@ -33,5 +34,3 @@ void print_line(int n)
 
 	}
 }
-
-
