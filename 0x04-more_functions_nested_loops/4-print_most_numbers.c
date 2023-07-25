@@ -15,7 +15,8 @@
 	{
 		if (c == '2' && c == '4')
 			{continue; }
-			_putchar(c);
+		else
+			{_putchar(c); }
 	}
 	_putchar('\n');
 }
