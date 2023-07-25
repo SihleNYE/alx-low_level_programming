@@ -2,16 +2,19 @@
 
 
 /**
- *main - Entry point
+ *add - Write a function that adds two integers
  *
- * Description: ''
+ * @a : integer to add
+ * @b :integer to add
  *
- * Return: Always 0 (Success)
+ * Return: Sum
  */
-int add(int, int)
+	int add(int a, int b)
 {
-	add = a + b;
+	int sum;
 
-		return (add);
+	sum  = a + b;
+
+		return (sum);
 
 }
