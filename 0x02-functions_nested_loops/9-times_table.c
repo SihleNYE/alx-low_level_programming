@@ -11,9 +11,8 @@
 void times_table(void)
 {
 	const char n = 57;
-	char a;
-	char b;
-
+	int char a;
+	int char b;
 
 	for (a = 48; a <= n; a++)
 	{
