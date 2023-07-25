@@ -1,38 +1,24 @@
 #include "main.h"
 
 /**
+ *_isupper - Checks if alphabets are in lowercase or upper
  *
+ *@c : inputs value to itterate
  *
- *
- *
- *
- *
- *
- *
+ *Return: 1 or 0
  *
  */
 
-int main(void)
-{
 	int _isupper(int c)
-	{
+{
+	if (c >= 65 && c <= 90)
+		{return (1); }
+	else
+		{return (0); }
 
-	do 
-	{
-		_putchar(c);
-		c++;
-	}
-	while (c = 0);
-	if (c <= 90 && c >= 65)
-		{
-	
-			return (1);
 
-		}
-	else if (c > 90)
-		{
-			return (0);
-		}
-	}
-return (0);
+
+
+
 }
+
