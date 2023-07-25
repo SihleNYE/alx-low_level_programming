@@ -10,7 +10,7 @@ void print_line(int n)
 {
 	char c;
 
-	c = 95;
+	c = '_';
 
 	for (n = '0'; n > '0'; n++)
 	{
