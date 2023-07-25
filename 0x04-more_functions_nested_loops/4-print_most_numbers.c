@@ -13,11 +13,11 @@
 
 	for (c = '0'; c <= '9'; c++)
 	{
-		if (c = '2' && c = '4')
+		if (c == '2')
 			{continue;
+			if (c == '4')
+				{continue; }
 			_putchar(c);	}
-		else
-			{break; }
 	}
 	_putchar('\n');
 }
