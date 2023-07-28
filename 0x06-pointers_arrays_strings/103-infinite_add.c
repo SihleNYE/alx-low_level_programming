@@ -20,7 +20,9 @@ void rev_string(char *n)
 
 	while (*(n + i) != '\0')
 
+
 	{
+
 
 	i++;
 
@@ -36,7 +38,7 @@ void rev_string(char *n)
 
 	*(n + j) = *(n + i);
 
-	(n + i) = temp;
+	*(n + i) = temp;
 
 	}
 
@@ -82,25 +84,27 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 
 			if (i < 0)
 
-				val1 = 0;
+			{val1 = 0; }
 
 			else
 
-				val1 = *(n1 + i) - '0';
+			{val1 = *(n1 + i) - '0'; }
 
 			if (j < 0)
 
-				val2 = 0;
+			{val2 = 0; }
 
 			else
 
-				val2 = *(n2 + j) - '0';
+			{val2 = *(n2 + j) - '0';
 
 				temp_tot = val1 + val2 + overflow;
+			}
 
 			if (temp_tot >= 10)
 
-				overflow = 1;
+			{	overflow = 1;
+			}
 
 			else
 
@@ -108,7 +112,7 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 
 			if (digits >= (size_r - 1))
 
-		return (0);
+			{return (0);
 
 			*(r + digits) = (temp_tot % 10) + '0';
 
@@ -116,7 +120,7 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 
 			j--;
 
-			i--;
+			i--; }
 
 		}
 
