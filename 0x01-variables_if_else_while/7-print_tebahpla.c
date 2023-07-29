@@ -13,8 +13,9 @@ int main(void)
 {
 
 	char z = 'z';
+	char a = 'a';
 
-	while (z >= 'a')
+	while (z >= a)
 	{
 	z--;
 	putchar(z);
