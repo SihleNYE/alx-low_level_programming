@@ -8,15 +8,30 @@
  *
  * Return: Always 0 (Success)
  */
+
 	int _abs(int n)
 {
 
-	if (n > 0)
+		if (n > 0)
 
-	{int sign = n * -1;
-	_putchar(sign);
-	return (-sign); }
+		_putchar('+');
 
+		return (1);
 
-	return (n);
+		} else if (n == 0)
+
+		{
+
+			_putchar(48);
+
+		return (0);
+
+		} else if (n < 0)
+		{
+
+			_putchar('-');
+
+		}
+
+		return (-1);
 }
