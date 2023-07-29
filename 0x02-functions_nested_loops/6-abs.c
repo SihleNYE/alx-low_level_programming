@@ -26,12 +26,7 @@
 
 		} 
 		
-		else if (n < 0)
-		{
+		else
 
-			_putchar(n);
-
-		
-
-		return (1); }
+		return (n); 
 }
