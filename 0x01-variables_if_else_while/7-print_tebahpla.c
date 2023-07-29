@@ -15,7 +15,7 @@ int main(void)
 
 	i = 122;
 	while (i <= 97)
-	{putchar(i);
+	{putchar(i + 48);
 	i--;
 	}
 	putchar('\n');
