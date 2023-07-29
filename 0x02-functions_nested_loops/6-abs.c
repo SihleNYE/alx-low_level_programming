@@ -16,7 +16,7 @@
 
 		{_putchar('+');
 
-		return (1); } 
+		return (n); } 
 		
 		else if (n == 0)
 
@@ -24,7 +24,7 @@
 
 			_putchar(48);
 
-		return (0);
+		return (n);
 
 		} 
 		
@@ -35,5 +35,5 @@
 
 		}
 
-		return (-1);
+		return (1);
 }
