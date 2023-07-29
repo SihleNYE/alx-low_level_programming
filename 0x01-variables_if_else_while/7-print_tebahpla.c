@@ -11,11 +11,12 @@
 int main(void)
 
 {
-	int i;
+	char z
 
-	i = 122;
-	while (i <= 97)
-	{putchar(i + 48);
+	char = 'z'
+
+	while (i >= 'a')
+	{putchar(z);
 	i--;
 	}
 	putchar('\n');
