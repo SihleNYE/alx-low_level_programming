@@ -14,15 +14,13 @@
 
 		if (n > 0)
 
-		{_putchar('+');
+		{_putchar('-');
 
 		return (n); } 
 		
 		else if (n == 0)
 
 		{
-
-			_putchar(48);
 
 		return (n);
 
@@ -31,9 +29,9 @@
 		else if (n < 0)
 		{
 
-			_putchar('-');
+			_putchar(n);
 
-		}
+		
 
-		return (1);
+		return (1); }
 }
