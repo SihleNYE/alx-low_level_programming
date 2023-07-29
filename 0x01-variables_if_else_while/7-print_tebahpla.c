@@ -15,9 +15,10 @@ int main(void)
 
 	char = 'z'
 
-	while (i >= 'a')
-	{putchar(z);
+	while (z >= 'a')
+	{
 	i--;
+	putchar(z);
 	}
 	putchar('\n');
 	return (0);
