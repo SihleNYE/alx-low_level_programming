@@ -11,9 +11,9 @@
 int main(void)
 
 {
-	char z
+	char z;
 
-	char = 'z'
+	char = 'z';
 
 	while (z >= 'a')
 	{
